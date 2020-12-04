@@ -1,6 +1,6 @@
 {
   "name": "@adorkable/eunomia-typescript-tests",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Eunomia for Typescript Tests",
   "main": "./lib/index.js",
   "typings": "./lib/index",
