@@ -1,4 +1,4 @@
-import { repeatRuns, repeatRunsChanged } from "../src/RepeatRuns"
+import { repeatRuns, repeatRunsChanged } from "../src"
 
 test('repeatRuns', () => {
     let runs = Math.floor(Math.random() * 100)

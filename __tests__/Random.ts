@@ -1,6 +1,6 @@
-import { randomNumbers } from '../src/Random'
+import { randomNumbers } from '../src'
 
-import { repeatRuns } from '../src/RepeatRuns'
+import { repeatRuns } from '../src'
 
 test('randomNumbers', () => {
     repeatRuns(() => {
