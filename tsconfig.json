@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "./lib",
+        "declaration": true,
+        "declarationDir": "./lib",
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "lib": [
+            "es2019",
+            "ES7",
+            "ES6",
+            "DOM"
+        ],
+        "target": "ES5",
+        "moduleResolution": "Node"
+    },
+    "typedocOptions": {
+        "mode": "modules",
+        "out": "docs",
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
